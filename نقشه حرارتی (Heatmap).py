@@ -1,0 +1,9 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+data = np.random.rand(5, 5)
+
+plt.imshow(data, cmap='hot')
+plt.title("Heatmap")
+plt.colorbar()
+plt.show()
